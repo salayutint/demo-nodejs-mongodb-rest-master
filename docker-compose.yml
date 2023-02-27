@@ -2,7 +2,7 @@ version: '3'
 
 services:
     web-node-js:
-        image: salayut2013/nodejs:v1
+        image: salayut2013/nodejs:latest
         ports:
             - "3000:3000"
         environment:
